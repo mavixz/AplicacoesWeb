@@ -1,0 +1,93 @@
+body {
+    background: #ffffff url(wallpaperflare.com_wallpaper.jpg);    
+}
+
+.titulo {
+    font-family:impact; 
+    font-size:xx-large;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 520px;
+    border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px grey;
+	text-shadow: none;
+}
+
+.DivCalcular{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    /* font-weight: bold; */
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 20px 20px;
+}
+.campos {
+    /* font-weight: bold; */
+    font-family:fantasy;
+    font-size: large;
+}
+
+
+.Resultado{
+    text-align: center; 
+    font-family:Impact;
+    margin: auto;
+    width: 520px;
+    border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px grey;
+	text-shadow: none;
+}
+
+
+.btn_Calcular {
+    background-color: black;
+    color:beige;
+    width: 20%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: none;
+    border: 1px solid #eee;
+	border-radius: 20px;
+}
+.btn_Calcular:hover {
+    background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    margin: auto;
+}
+
+.btn_Limpar {
+    background-color: black;
+    color:beige;
+    text-shadow: none;
+    width: 45%;
+    border: 1px solid #eee;
+	border-radius: 20px;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.btn_Limpar:hover {
+    background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}

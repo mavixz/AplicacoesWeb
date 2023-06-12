@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button><a href="Paginainicial.html" target="_blank">
+        Voltar
+    </a>
+
+    <div class="DivCalcular">
+        <h2 class="titulo">VAMOS CALCULAR</h2>
+        <form class="campos">
+
+            <label>Valor 01</label>
+            <input class="caixaTexto" type="number" placeholder="Valor 01" id="valor01" name="valor01">
+            <br />
+            <label>Valor 02</label>
+            <input class="caixaTexto" type="number" placeholder="Valor 02" id="valor02" name="valor02">
+            <br />
+            <button type="button" class="btn_Calcular" onclick="Somar()"> Somar </button>
+            <button type="button" class="btn_Calcular" onclick="Multi()"> Multiplicar </button>
+            <button type="button" class="btn_Calcular" onclick="Subtrair()"> Subtrair </button>
+            <button type="button" class="btn_Calcular" onclick="Div()">Dividir</button>
+            <br />
+            <button type="reset" class="btn_Limpar">Limpar</button>
+
+        </form>
+        <h2 class="Resultado">
+            Resultado:
+            <span id="Resultado"></span>
+        </h2>
+    </div>
+
+    <script src="calcu.js"></script>
+
+</body>
+
+</html>

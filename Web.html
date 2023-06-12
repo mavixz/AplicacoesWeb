@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,64 +9,83 @@
     <title>Web</title>
 </head>
 
-<style> 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      padding: 8px;
-      background-color: #dddddd;
-    }
+<div class="Elementos">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 8px;
+        }
     </style>
     </head>
+
     <body>
-    
-    <ul> 
-      <li><a href="#home"> Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
 
-<body>
-    
+        <div class="Menu">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+
+        <div class="Titulos">
+            <h1 id="Title" style="text-align:center">
+                PAGINA HOME
+                <h1 class="subtitulo">Desenvolvimento aplicações web</h1>
+                <h2 class="subtitulo">Introdução ao desenvolvimento de aplicações web</h2>
+        </div>
+
+        <div class="Paragrafros">
+            <p>
+                O desenvolvimento de aplicações desktop com Java SE (Java Standard Edition) e
+                suas bibliotecas AWT, Swing e Applets se tornou bastante difundido com o aumento no uso da linguagem
+                Java. <br /> Isto se deve, dentre outros motivos, à portabilidade das aplicações desenvolvidas, uma das
+                grandes inovações do Java.</p>
+            <p>Neste cenário de aplicações desktop, imagine uma aplicação que foi criada para o controle de acesso
+                de uma empresa, sendo esta instalada em 200 máquinas. <br /> Quando essa aplicação sofrer alguma
+                alteração negocial e precisar ser atualizada, todas as versões instaladas nas máquinas da empresa
+                precisarão passar por uma atualização.</p>
+            <p>Assim, as dificuldades de manutenção, atualização e distribuição de aplicações desktop, aliadas à
+                necessidade de instalação de uma versão do aplicativo nas máquinas do usuário <br /> motivou a busca
+                por uma melhor forma de distribuir aplicações que fossem acessadas por vários usuários e pudessem
+                estar disponíveis em qualquer lugar.</p>
+            <p>Seguindo o exemplo anterior, se nossa aplicação estivesse em um ponto centralizado, onde seu acesso
+                fosse distribuído, onde as alterações fossem efetuadas em apenas uma única versão da aplicação
+                <br /> e não houvesse a necessidade de instalação desta aplicação nas máquinas do usuário, teríamos
+                uma melhor disponibilidade de nossa aplicação, assim como um melhor controle sobre suas alterações.
+            <p>Este ponto centralizado veio com a utilização da plataforma web no desenvolvimento de aplicações. No
+                desenvolvimento web, o cliente usa um navegador (browser) para acessar a aplicação <br />
+                necessitando apenas a instalação do navegador em sua máquina. Como a utilização dos navegadores foi
+                difundida com a popularização da Internet, a plataforma web foi beneficiada neste ponto.</p>
+            <center><img src="desenvolvimento-web-servicos1.jpg" alt="foto de computador" /></center>
+        </div>
+
+        <br />
+        <center><input type="text" placeholder="Nome">
+            <label>Email</label>
+            <input type="email">
+            <label>Senha</label>
+            <input type="password">
+
+            <button><a href="app.html" target="_blank">
+                    Click aqui
+                </a>
+            </button>
+        </center>
 
 
-   <h1 id="Title" style="text-align:center">
-    Pagina home
-    <h1>Desenvolvimento aplicações web</h1>  
-   <h2>Introdução ao desenvolvimento de aplicações web</h2>
-   <h3></h3>
-   <p>O desenvolvimento de aplicações desktop com Java SE (Java Standard Edition) e suas bibliotecas AWT, Swing e Applets se tornou bastante difundido com o aumento no uso da linguagem Java. <br/> Isto se deve, dentre outros motivos, à portabilidade das aplicações desenvolvidas, uma das grandes inovações do Java.</p>
-   <p>Neste cenário de aplicações desktop, imagine uma aplicação que foi criada para o controle de acesso de uma empresa, sendo esta instalada em 200 máquinas. <br/> Quando essa aplicação sofrer alguma alteração negocial e precisar ser atualizada, todas as versões instaladas nas máquinas da empresa precisarão passar por uma atualização.</p>
-   <p>Assim, as dificuldades de manutenção, atualização e distribuição de aplicações desktop, aliadas à necessidade de instalação de uma versão do aplicativo nas máquinas do usuário <br/> motivou a busca por uma melhor forma de distribuir aplicações que fossem acessadas por vários usuários e pudessem estar disponíveis em qualquer lugar.</p>
-   <p>Seguindo o exemplo anterior, se nossa aplicação estivesse em um ponto centralizado, onde seu acesso fosse distribuído, onde as alterações fossem efetuadas em apenas uma única versão da aplicação <br/> e não houvesse a necessidade de instalação desta aplicação nas máquinas do usuário, teríamos uma melhor disponibilidade de nossa aplicação, assim como um melhor controle sobre suas alterações. 
-   <p>Este ponto centralizado veio com a utilização da plataforma web no desenvolvimento de aplicações. No desenvolvimento web, o cliente usa um navegador (browser) para acessar a aplicação <br/> necessitando apenas a instalação do navegador em sua máquina. Como a utilização dos navegadores foi difundida com a popularização da Internet, a plataforma web foi beneficiada neste ponto.</p>
-   <img src="desenvolvimento-web-servicos1.jpg" alt="foto de computador"/> 
+    </body>
 
-   <br/> <input type="text" placeholder="Nome">
-   <label>Email</label>
-   <input type="email">
-   <label>Senha</label>
-   <input type="password">
-
-
-    <button><a href="app.html" target="_blank">
-        Click aqui
-    </a>
-</button>
-
-
-
-</body>
 </html>
-

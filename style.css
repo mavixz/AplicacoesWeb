@@ -1,4 +1,38 @@
 #Title {
-    background-color: rgb(161, 213, 213);
+    background-color: aquamarine;
+    color: black;
+    font-family:verdana;
+}
+.Elementos {
+    font-family:system-ui, -apple-system, 'Open Sans', sans-serif;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.Menu {
+    background-color:aquamarine;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family:sans-serif;
+    color: black;
+}
+.Paragrafros {
+    font-family:arial;
+    color: black;
 }
 
